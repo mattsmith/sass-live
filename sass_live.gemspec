@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Live/Dynamic Compilation of Sass for Ruby on Rails."
   s.description = "Ideal for when user's of your system can provide css 
                   customization values."
+  s.license     = "MIT"
                   
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
