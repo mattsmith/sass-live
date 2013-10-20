@@ -2,7 +2,7 @@
 
 Live/Dynamic Compilation of Sass for Ruby on Rails. Ideal for when user's of your system can provide css customization values.
 
-sass-live provides an endpoint (routes, controller & action) that'll generate and cache dynamic css.
+sass_live provides an endpoint (routes, controller & action) that'll generate and cache dynamic css.
 
 The data used to customize your css can be provided as an injectable dependency. See [Configuration](#configuration) for more details.
 
@@ -11,7 +11,7 @@ The data used to customize your css can be provided as an injectable dependency.
 Add this to your Gemfile:
 
 ```ruby
-gem 'sass-live'
+gem 'sass_live'
 ```
 
 Then install it by running Bundler:
@@ -22,11 +22,11 @@ $ bundle
 
 ## Configuration
 
-Once installed you can use the ```sass-live:install``` generator to scaffold in the configuration hooks for sass-live.
+Once installed you can use the ```sass_live:install``` generator to scaffold in the configuration hooks for sass_live.
 
 ## Usage in Production
 
-sass-live's css generation controller will automatically cache results based on the ```#cache_key``` value of your injected data dependency. This is like a page cache.
+sass_live's css generation controller will automatically cache results based on the ```#cache_key``` value of your injected data dependency. This is like a page cache.
 
 However, if you prefer pre-computing the dynamic css values you can customize the generated rake task to enumerate over your data dependencies.
 
