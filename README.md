@@ -1,4 +1,4 @@
-# sass-live
+# sass_live
 
 Live/Dynamic Compilation of Sass for Ruby on Rails. Ideal for when user's of your system can provide css customization values.
 
